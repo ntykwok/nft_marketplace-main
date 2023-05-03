@@ -3,6 +3,7 @@ import np from "../assets/np.png"
 
 function HomeHero() {
  return (
+    <div>
    <div className="w-screen h-screen text-white" style={{
      background: "radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(33,33,21,1) 98%, rgba(38,38,20,1) 100%)"
    }}>
@@ -19,6 +20,7 @@ function HomeHero() {
        </div>
      </div>
    </div >
+   </div>
  );
 }
 
