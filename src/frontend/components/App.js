@@ -54,9 +54,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <>
-          <Navigation web3Handler={web3Handler} account={account} />
-        </>
+        <Navigation web3Handler={web3Handler} account={account} />
         <div>
           {loading ? (
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '80vh' }}>
